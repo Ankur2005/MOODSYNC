@@ -1,0 +1,97 @@
+[data-theme="light"]{
+  --bg-color: #ffffff;
+  --text-color:#333333;
+  --heading-color:black;
+}
+[data-theme="dark"]{
+  --bg-color: #333333;
+  --text-color:#ffffff;
+  --heading-color:white;
+}
+  
+body{
+  background-color: var(--bg-color);
+  color:var(--text-color);
+}
+h1{
+  color:var(--heading-color);
+}
+h2,h4{
+  color:var(--heading-color);
+}
+
+
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+#menu.navbar-default .navbar-nav > li > a{
+  color:var(--text-color);
+}
+#menu a.navbar-brand{
+  color:var(--text-color);
+}
+#menu.navbar-default {
+  background-color: var(--bg-color);
+}
+.mode-switch label{
+  display:inline-block;
+  width:40px;
+  height:20px;
+  position:relative;
+  margin-left:10px;
+}
+.mode-switch input{
+  position:relative;
+  left:5px;
+}
+.mode-switch{
+  position: relative;
+  top:15px;
+  left:30px;
+}
+
+.mode-switch .slider{
+  position:absolute;
+  cursor:pointer;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+.mode-switch input:checked+ .slider{
+  background-color: #2196f3;
+  ;
+}
+.mode-switch .slider:before{
+  position:absolute;
+  content:"";
+  height: 16px;
+  width:16px;
+  left:2px;
+  bottom:2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius:50%;
+}
+.mode-switch input:checked +.slider:before{
+  transform:translateX(20px);
+}

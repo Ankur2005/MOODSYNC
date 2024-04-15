@@ -1,0 +1,116 @@
+{
+  "Header": {
+    "title": "MoodSync",
+    "paragraph": "Your Emotional Compass For Content Exploration"
+  },
+  "About": {
+    "paragraph": "Welcome to MoodSync, where emotions meet music in a harmonious fusion of technology and creativity. We believe in the power of artificial intelligence to bridge the gap between human emotions and musical expression. Through cutting-edge facial recognition technology, our platform analyzes live photos to discern the subtle nuances of your mood.",
+    "Why": [
+      "Personalized Music Experience",
+      "Mood-Based Recommendations",
+      "Emotionally Intelligent Technology",
+      "Enhance Your Mood"
+    ],
+    "Why2": [
+      "Connection Through Music",
+      "Simple and User-Friendly",
+      "Relaxation",
+      "Emotional Connection"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/new1.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/new2.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/new3.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/new4.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/new5.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/new6.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/new10.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/new8.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/new9.jpg"
+    }
+  ],
+  
+  
+  "Team": [
+    {
+      "img": "img/team/ankur.jpg",
+      "name": "Ankur",
+      "job": "Backend Developer"
+      
+    },
+    {
+      "img": "img/team/anshul.jpg",
+      "name": "Anshul Choudhary",
+      "job": "Frontend Developer"
+    },
+    {
+      "img": "img/team/rana.jpg",
+      "name": "Nitin Rana",
+      "job": "Research and Testing"
+    },
+    {
+      "img": "img/team/bhaya2.jpg",
+      "name": "Akshat Vashisht",
+      "job": "Project Manager"
+    }
+  ],
+ 
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Feeling Detection",
+      "text":"The app figures out how you're feeling and suggests songs based on your emotions"
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Song Picker",
+      "text": "It suggests songs based on your feelings, giving you the freedom to curate your own playlists "
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Search for Songs",
+      "text": "Find the perfect melodies to complement  or discover new musical gems to explore."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Mood-Enhancing Soundscape",
+      "text": "Access ambient sounds and nature recordings designed to enhance your mood"
+    }
+  ]
+}
