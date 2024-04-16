@@ -1,0 +1,9 @@
+MOODSYNC: Your Emotional Compass For Content Exploration 
+
+Description --> It is my Integrated Project on Emotion detection in which content (for now music) is being recommended when emotion is detected and then based on that
+                emotion an embedded spotify iframe will pop up with emotion related songs in there...
+
+Problems:
+1) here i have to run two files in terminal first "npm start" for frontend and then "python emotion_detection.py" so i wanna solve it and i want the python code to be run when
+   the "TRY NOW" button is clicked....
+2) emotion detection system is accurate enough but is laggy sometimes...
