@@ -15,7 +15,7 @@ grpcio
 h5py
 idna
 importlib-metadata
-install=
+install
 itsdangerous
 Jinja2
 keras
