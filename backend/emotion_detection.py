@@ -38,7 +38,7 @@ def gen_frames():
             predictions = model.predict(img_pixels)
             emotion_label = np.argmax(predictions)
             emotion_prediction = label_dict[emotion_label]
-            cv2.putText(frame, emotion_prediction, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0,200,0), 1 )
+            cv2.putText(frame, emotion_prediction, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 200, 0), 2)
             final_pred.append(emotion_prediction)
             if count>=30:
                 break
