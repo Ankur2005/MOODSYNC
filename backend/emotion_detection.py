@@ -11,8 +11,8 @@ from scipy import stats
 app = Flask(__name__, template_folder='./templates')
 
 camera = cv2.VideoCapture(0)
-face_haar_cascade = cv2.CascadeClassifier('../Model/haarcascade_frontalface_default.xml')
-model = tf.keras.models.load_model('../Model/model_csv.h5')
+face_haar_cascade = cv2.CascadeClassifier('./Model/haarcascade_frontalface_default.xml')
+model = tf.keras.models.load_model('./Model/model_csv.h5')
 label_dict = {0 : 'Angry', 1 : 'Disgust', 2 : 'Fear', 3 : 'Happiness', 4 : 'Sad', 5 : 'Surprise', 6 : 'Neutral'}
 global capture
 capture=0
