@@ -1,12 +1,6 @@
 {
-    "builds": [
-        {
-          "src": "package.json#build",
-          "use": "@vercel/build-react"
-        },
-        {
-          "src": "./backend/emotion_detection.py",
-          "use": "@vercel/python"
-        }
-      ]
+  "version": 2,
+  "builds": [
+    { "src": "./public/index.html", "use": "@vercel/static-build" }
+  ]
 }
