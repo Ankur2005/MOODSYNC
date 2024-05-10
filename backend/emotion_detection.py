@@ -7,9 +7,9 @@ import webbrowser
 import cv2
 import numpy as np
 from scipy import stats
-
+from flask_cors import CORS
 app = Flask(__name__, template_folder='./templates')
-
+CORS(app)
 camera = cv2.VideoCapture(0)
 face_haar_cascade = cv2.CascadeClassifier('./Model/haarcascade_frontalface_default.xml')
 model = tf.keras.models.load_model('./Model/model_csv.h5')
