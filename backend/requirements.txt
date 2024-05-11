@@ -90,7 +90,7 @@ numpy
 oauthlib
 odict
 opencv-contrib-python
-opencv-python.72
+opencv-python
 opencv-python-headless
 opt-einsum
 overrides
