@@ -89,9 +89,9 @@ notebook_shim
 numpy
 oauthlib
 odict
-opencv-contrib-python.80
+opencv-contrib-python
 opencv-python.72
-opencv-python-headless.80
+opencv-python-headless
 opt-einsum
 overrides
 packaging
