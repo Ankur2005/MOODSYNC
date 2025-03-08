@@ -105,6 +105,6 @@ def tasks():
     return render_template('face-detection.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    
+    app.run()
+
 cv2.destroyAllWindows()
